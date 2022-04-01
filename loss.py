@@ -1,11 +1,7 @@
 # imports
-from hashlib import new
-from turtle import forward
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-
-from collections import Counter
 
 import numpy as np
 
