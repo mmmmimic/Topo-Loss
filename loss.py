@@ -61,7 +61,7 @@ class TopoLoss(nn.Module):
         topo_loss = 0
         ## note that topologyLayer only work on batchsize=1
         for b in range(batch_size):
-            pred = y_pred[b, idx, ...] # [H, W]
+            pred = y_pred[b, idx+1, ...] # [H, W]， class 0 is the background
             label = topo_label[b, idx, :] # [2]
 
             homo_info = self.dgminfo(pred)
