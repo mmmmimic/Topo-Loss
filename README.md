@@ -9,5 +9,5 @@ In our implementation, we extend the topological loss to multiclass segmentation
 * SciPy
 * [topologylayer](https://github.com/bruel-gabrielsson/TopologyLayer)
 
-## Acknowledgement
+## Acknowledgements
 This implementation is based on the [official implementation of this paper](https://github.com/JamesClough/topograd).
