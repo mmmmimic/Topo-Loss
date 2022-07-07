@@ -1,5 +1,5 @@
 # A Topological Loss Function for Deep-Learning based Image Segmentation using Persistent Homology
-This is an **unofficial** implementation of the TPAMI2020 paper [A Topological Loss Function for Deep-Learning based Image Segmentation using Persistent Homology](https://arxiv.org/pdf/1910.01877.pdf).
+This is an **unofficial** implementation of the TPAMI'20 paper [A Topological Loss Function for Deep-Learning based Image Segmentation using Persistent Homology](https://arxiv.org/pdf/1910.01877.pdf).
 
 In our implementation, we extend the topological loss to multiclass segmentation. The overall loss is the average topological loss over the categories of interest.    
 
